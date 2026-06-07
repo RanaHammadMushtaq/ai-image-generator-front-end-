@@ -146,7 +146,6 @@ const Header = () => {
             alignItems: 'center',
             justifyContent: 'center',
             gap: 4,
-            fontSize: 24,
             color: '#0f172a',
             fontSize: i < 6 ? 28 : 22,
             transition: 'all 0.2s',

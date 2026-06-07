@@ -1,10 +1,23 @@
 import React from 'react'
+import Header from '../components/Header'
+import Steps from '../components/Steps'
+import Description from '../components/Description'
+import Testimonials from '../components/Testimonials'
+import GenerateBtn from '../components/GenerateBtn'
 
-export default function Home() {
+const Home = () => {
   return (
-    <section style={{padding: '1rem'}}>
-      <h2>Welcome</h2>
-      <p>This is the Home page scaffold.</p>
-    </section>
+    <div>
+      <Header />
+      <Steps />
+      <Description />
+      <Testimonials />
+      <GenerateBtn />
+      <div style={{ paddingBottom: 80 }} />
+    </div>
   )
 }
+
+export default Home
+
+
